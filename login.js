@@ -1,7 +1,7 @@
-console.log('Sistema de Dashboard v2.0');
+console.log('Sistema de Login v1.0 + Dashboard v2.0');
 function validarUsuario(user, pass) {
     if (user === 'admin' && pass === '12345') {
-        return 'Bienvenido al Dashboard';
+        return 'Bienvenido adusyt1 - Dashboard activo';
     }
     return 'Acceso denegado';
 }
