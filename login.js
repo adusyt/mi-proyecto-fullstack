@@ -4,4 +4,4 @@ function validarUsuario(user, pass) {
         return 'Bienvenido adusyt1 - Dashboard activo';
     }
     return 'Acceso denegado';
-}
+}// Comentario para el ejercicio 3
