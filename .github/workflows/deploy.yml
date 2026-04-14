@@ -1,0 +1,11 @@
+name: CI - Build y Test
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar dependencias
+        run: npm install
+      - name: Ejecutar tests
+        run: npm test
